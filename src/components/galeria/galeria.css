@@ -1,0 +1,75 @@
+.img-galeria{
+    display:flex;
+    flex-direction: row;
+    margin-left: 72px;
+    justify-content:space-around;
+    align-items: center;
+    padding: 4rem;
+    }
+
+
+.cont-galeria{
+    width: 100%;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+   
+}
+.img-galeria .img1, .img-galeria .img2, .img-galeria .img3{
+    width: 100%;
+    height: 300px;
+    background-color: #FF820D;
+    margin: 1rem;
+}
+.img-galeria .img1{
+    background: url(../assets/img/cena.jpg);
+    background-size: cover
+}
+.img-galeria .img2{
+    background: url(../assets/img/habitacion1.jpg);
+    background-size: cover
+}
+.img-galeria .img3{
+    background: url(../assets/img/evento.jpg);
+    background-size: cover
+}
+h3{
+    font-family: 'Bebas Neue', cursive;
+    color: var(--dark);
+    margin-bottom: 1rem;
+
+}
+@media screen and (max-width:1000px ){
+    .iconos-index{
+    
+        flex-direction: column;
+        
+    }  
+    .iconos-index-int p{
+        width: 200px;
+        text-align: center;
+        margin: 1rem;
+        font-size: 2vw;
+    }
+    .form-filtro, .form-filtro2{
+   
+    flex-direction: column;
+}
+.form-filtro label, .form-filtro input{
+
+    font-size: 2vw;
+}
+.container-filtro{
+    width: 60%;
+   
+
+}
+.img-galeria{
+
+    flex-direction: column;
+}
+
+}

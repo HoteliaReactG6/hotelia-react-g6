@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
           Learn React
         </a>
       </header>
+        <div>
+    <FontAwesomeIcon icon={faHome} />
+  </div>
     </div>
   );
 }

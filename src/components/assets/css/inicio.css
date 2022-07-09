@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+:root{
+    --orange: #FF820D;
+    --dark: #333333;
+    --gray: #B2B3B3;
+    --dark_blue: #157A8A;
+    --orange-light: #FFC187;
+}
+*{
+
+}
+h1, p{
+    color: #fff;
+}
+.banner-index{
+    margin-left: 72px;
+    width: auto;
+    height: 100%;
+   background: url(../img/banner_index.svg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+
+}
+.contenedor-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+.contenedor-redes i{
+    margin-top: 2rem;
+}
+.contenedor-redes img{
+    margin-top: 2rem;
+    width: 15px;
+}
+
+/*---------------------------------*/
+.menu-sup{
+    width: 92%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 15px;
+    align-items: center;
+}
+.menu-sup p{
+    font-size: 14px;
+    margin-right: 1rem;
+}
+.menu-sup button{
+    padding: 5px 10px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 2px;
+}.menu-sup button i{
+    margin-right: 5px;
+}
+h1{
+    font-family: 'Alata', sans-serif;
+    font-size: 6vw;
+    text-align: center;
+}
+.iconos-index{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem;
+}
+.iconos-index-int{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    
+}
+.iconos-index-int p{
+    width: 200px;
+    text-align: center;
+    margin: 1rem;
+    font-size: 1vw;
+}
+
+.container-filtro{
+    width: 80%;
+    background: rgba(255, 255, 255, 0.60);
+    box-shadow: 0 8px 32px 0 rgba(182, 168, 138, 0.37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5px;
+
+}
+.form-filtro2{
+    display: flex;
+    flex-direction: row;
+}
+.form-filtro{
+    width: 100%;
+     display: flex;
+     background:rgba(245, 244, 220, 0.8);
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 5px;
+    flex-direction: row;
+}
+
+.input-filtro, .input-filtro2{
+    display: flex;
+    width: 100%;
+    
+   justify-content: center;
+   align-items: center;
+ padding: 1rem;
+   border-radius: 5px;
+   flex-direction: column;
+   
+}
+.form-filtro label, .input-filtro2 label{
+    color:#333333;
+    font-size: 1vw;
+    margin-bottom: 0.5rem;
+}
+
+.form-filtro input{
+    color:#333333;
+    font-size: 1vw;
+    background-color: #fff;
+    border: none;
+    padding: 1rem;
+    margin: 10px;
+    width: 70%;
+    
+   
+}
+.form-filtro2 input{
+    width: 100px;
+}
+.input-filtro2{
+   
+    border-right: 20px 3px solid #fff;
+}
+.banner-index .btn-in{
+    margin: 3rem;
+    padding: 1rem;
+    background-color: var(--dark_blue);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(163, 209, 230, 0.37);
+
+}
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+textarea:focus,input:focus,input[type]:focus{
+    border-color:rgb(255, 144, 0);
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.07)inset, 0 0 8px rgba(255, 144, 0, 0.6);
+    outline: 0 none;
+}
+@media screen and (max-width:1000px ){
+    .iconos-index{
+    
+        flex-direction: column;
+        
+    }  
+    .iconos-index-int p{
+        width: 200px;
+        text-align: center;
+        margin: 1rem;
+        font-size: 2vw;
+    }
+    .form-filtro, .form-filtro2{
+   
+    flex-direction: column;
+}
+.form-filtro label, .form-filtro input{
+
+    font-size: 2vw;
+}
+.container-filtro{
+    width: 60%;
+   
+
+}
+.img-galeria{
+
+    flex-direction: column;
+}
+.barra-footer{
+    width: auto;
+    height: 40px;
+  
+}
+.barra-footer h4{
+  font-size: 2vw;
+    padding: 5px;
+    
+}
+.barra-footer p{
+    font-size: 1.5vw;
+}
+.star{
+ 
+    width: 100px;
+    
+}
+.barra-dark p{
+    font-size: 2vw;
+}
+}

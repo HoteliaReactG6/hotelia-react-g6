@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+:root{
+    --orange: #FF820D;
+    --dark: #333333;
+    --gray: #B2B3B3;
+    --dark_blue: #157A8A;
+    --orange-light: #FFC187;
+}
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+.cards-bh{
+    width: auto;
+
+    margin-left: 72px;
+    padding: 1rem;
+    
+}
+.card-bh{
+    
+    background-color: rgba(21, 122, 138, 0.55);
+    margin: 3rem;
+    border-radius: 10px;
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   
+
+  
+   
+
+}
+
+.card-img{
+    
+    width: 350px;
+    height: 350px;
+ 
+    background: url(../assets/img/habitacion1.jpg);
+    background-size: cover;
+    
+    
+    margin-top: -10px;
+    margin-bottom: -10px;
+    border-radius: 10px;
+
+}
+.cont-bh{
+
+    background-color: #fff;
+    width:60%;
+    height: 250px;
+    color: #333333;
+    margin-left: -20px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.cont-bh h2{
+    font-family: 'Alata', sans-serif;
+    font-size: 2vw;
+    color: #333333;
+   
+}
+.cont-bh .linea{
+    width: 300px;
+    height: 4px;
+    background-color: #FF820D;
+    border-radius: 50px;
+    margin: 10px;
+    margin-left: 2rem;
+
+}
+.cont-bh h3{
+    font-size: 3vw;
+    margin-left: 1rem;
+
+}
+.cont-bh p{
+    color: #333333;
+    font-size: 1.3vw;
+    margin-left: 1rem;
+}
+.btn-re{
+    width: auto;
+    display: flex;
+   justify-content: flex-end;
+
+}
+.btn-reservar{
+    background-color: #FF820D;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1.5vw;
+    margin: 1rem;
+}
+@media screen and (max-width:1000px ){
+    .card-bh{
+    
+        background-color: rgba(21, 122, 138, 0.55);
+        margin: 1rem;
+        border-radius: 10px;
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding: 1rem;
+      
+       
+    
+    }
+    .card-img{
+    
+        width: 200px;
+        height: 200px;
+        margin-top: -30px;
+
+    }
+    .cont-bh{
+
+        background-color: #fff;
+        width:95%;
+        height: 150px;
+        color: #333333;
+        margin-left: 0;
+        padding: 1rem;
+    }
+    .cont-bh .linea{
+        width: 100px;
+        height: 3px;
+        
+    
+    }
+    .cont-bh h2{
+        font-family: 'Alata', sans-serif;
+        font-size: 3vw;
+        color: #333333;
+       
+    }
+    .cont-bh p{
+        color: #333333;
+        font-size: 1.3vw;
+    }
+}
+@media screen and (max-width:600px ){
+   
+    .cont-bh{
+
+        width:90%;
+    
+    }
+    .cont-bh p{
+        color: #333333;
+        font-size: 2vw;
+    }
+}
